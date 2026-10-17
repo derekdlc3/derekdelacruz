@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="description" content="The personal portfolio of Derek Dela Cruz, engineer." />
+  <title>Derek Dela Cruz — Engineer & Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="navbar">
+      <a class="logo" href="#about" aria-label="Go to home">
+        <span class="logo-mark">D<span>.</span></span>
+        <span class="logo-name">derekdelacruz</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle navigation"
+        aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#portrait">Photo</a>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#contact" class="nav-contact">Let's talk <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ABOUT -->
+      <section class="hero section" id="about">
+        <div class="hero-copy">
+          <!-- <div class="eyebrow">
+            <span class="status-dot"></span>
+            AVAILABLE FOR SELECT OPPORTUNITIES
+          </div> -->
+
+          <h1>Lighting up<br />the <span class="accent">world.</span></h1>
+
+          <p class="hero-description">
+            Hey there! I'm Derek, an applications engineer with a computer
+            engineering background who creates lighting control drawing layouts for
+            the AEC industry. Welcome to my website.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">
+              Explore my work <span>↘</span>
+            </a>
+            <a class="button button-secondary" href="#contact">
+              Get in touch <span>↗</span>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span><span class="meta-icon">⌖</span> San Francisco Bay Area, CA</span>
+            <span><span class="meta-icon">⌘</span> Engineer</span>
+          </div>
+        </div>
+
+        <aside class="terminal-card" aria-label="Developer profile">
+          <div class="terminal-top">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>profile.ts</span>
+            <span class="terminal-lang">TS</span>
+          </div>
+          <div class="terminal-body">
+            <div><span class="line-no">01</span> <span class="syntax-purple">const</span> <span class="syntax-blue">engineer</span> = {</div>
+            <div><span class="line-no">02</span> &nbsp; name: <span class="syntax-green">"Derek Dela Cruz"</span>,</div>
+            <div><span class="line-no">03</span> &nbsp; role: <span class="syntax-green">"Applications Engineer"</span>,</div>
+            <div><span class="line-no">04</span> &nbsp; focus: [</div>
+            <div><span class="line-no">05</span> &nbsp;&nbsp; <span class="syntax-green">"Controls engineering"</span>,</div>
+            <div><span class="line-no">06</span> &nbsp;&nbsp; <span class="syntax-green">"Electrical engineering"</span>,</div>
+            <div><span class="line-no">07</span> &nbsp;&nbsp; <span class="syntax-green">"Hardware engineering"</span></div>
+            <div><span class="line-no">08</span> &nbsp; ],</div>
+            <div><span class="line-no">09</span> &nbsp; powerOn: <span class="syntax-orange">true</span>,</div>
+            <!-- <div><span class="line-no">10</span> &nbsp; ready: <span class="syntax-orange">true</span></div> -->
+            <div><span class="line-no">11</span> };</div>
+            <div class="terminal-output"><span>➜</span> <span class="syntax-muted">loading_</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- PORTRAIT -->
+      <section class="portrait-section" id="portrait">
+        <div class="portrait-frame">
+          <img
+            src="images/profile.JPEG"
+            alt="Photo of Derek Dela Cruz"
+            loading="lazy"
+          />
+          <span class="portrait-corner portrait-corner-tl"></span>
+          <span class="portrait-corner portrait-corner-br"></span>
+          <span class="portrait-label">OH HEY THAT'S ME</span>
+        </div>
+
+        <div class="portrait-copy">
+          <span class="section-index">A LITTLE ABOUT ME</span>
+          <h2>Always trying<br /><span class="accent">something new.</span></h2>
+          <p>I graduated from the University of California, Santa Barbara with
+            a Bachelors of Science in computer engineering and a minor in Asian
+            American studies.
+          </p>
+          <p>My path is eclectic, with past and present experience spanning lighting
+            controls, public works, biotechnology, asset management, website design,
+            and administrative assistance. I have always approached the world as a sponge, absorbing
+            what I can from the opportunities presented to me.
+          </p>
+          <p>
+            Though my career focus is in lighting, I'm always learning new things,
+            trying out ideas, and taking in what the world has to offer.
+            I believe the best engineering comes from staying curious.
+          </p>
+          <div class="portrait-caption">
+            <span class="status-dot"></span>
+            <span>DEREK DELA CRUZ</span>
+            <span class="caption-divider">/</span>
+            <span>WHAT'S NEXT?</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- WORK -->
+      <section class="section" id="work">
+        <div class="section-heading">
+          <div>
+            <span class="section-index">01 / EXPERIENCE</span>
+            <h2>Where I've <span class="accent">worked.</span></h2>
+          </div>
+          <p>Just a handful of chapters in my professional journey.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">12/2025 — PRESENT</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-title-row">
+                <div>
+                  <h3>Applications Engineer</h3>
+                  <p class="company">sixteen5hundred <span>· Full-time</span></p>
+                </div>
+                <span class="tag">CURRENT</span>
+              </div>
+              <p>Creating lighting control layouts by leveraging the Acuity Brands Lighting 
+                nLight system for San Francisco Bay Area contractor clients.</p>
+              <!-- <div class="chips"><span>Visual Controls</span><span>nLight</span><span>Lua</span></div> -->
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">7/2025 — 11/2025</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Public Works Intern</h3>
+              <p class="company">City of Sausalito <span>· Internship</span></p>
+              <p>Oversaw capital improvement projects, designed as-built and record drawing database, utilized AutoCAD for building mapping.</p>
+              <!-- <div class="chips"><span>AutoCAD</span><span>QGIS</span><span>VBA</span></div> -->
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">4/2024 — 1/2025</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Electrical/Hardware Engineering Intern</h3>
+              <p class="company">NeuroLeap Corp <span>· Internship</span></p>
+              <p>Designed PCBs via OrCAD, referenced spec sheets to find components, worked alongside team to design IoT device to benefit children.</p>
+              <!-- <div class="chips"><span>OrCAD</span><span>EDA</span><span>EDA</span></div> -->
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">6/2022 — 9/2023</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Web Data Manipulation Contractor</h3>
+              <p class="company">Friedman's Home Improvement <span>· Part-time</span></p>
+              <p>Revised webnames of SKUs for store display, automated repetitive work in Excel using VBA.</p>
+              <!-- <div class="chips"><span>OrCAD</span><span>EDA</span><span>EDA</span></div> -->
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- PROJECTS -->
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <div>
+            <span class="section-index">02 / SELECTED WORK</span>
+            <h2>Things I've <span class="accent">built.</span></h2>
+          </div>
+          <p>Side projects, experiments, and solutions to interesting problems.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <!-- PROJECT 1: Pulse -->
+            <div class="project-visual project-image">
+              <img
+                src="images/garage.jpg"
+                alt="Pulse observability dashboard"
+                loading="lazy"
+              />
+              <div class="visual-label">01 — EMBEDDED SYSTEMS</div>
+              <span class="visual-number">01</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-topline"><span>CLASS PROJECT</span><span>2023</span></div>
+              <h3>Garage Door Controller</h3>
+              <p>An STM32 programmed to utilize real time data from multiple sensors to control a motor.</p>
+              <div class="chips"><span>uVision</span><span>Fusion 360</span></div>
+              <!-- <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">
+                View project <span>↗</span>
+              </a> -->
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <!-- PROJECT 2: ShipIt -->
+            <div class="project-visual project-image">
+              <img
+                src="images/tuner.jpg"
+                alt="ShipIt deployment tool interface"
+                loading="lazy"
+              />
+              <div class="visual-label">02 — DEVELOPER TOOLS</div>
+              <span class="visual-number">02</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-topline"><span>CLASS PROJECT</span><span>2024</span></div>
+              <h3>Chromatic Tuner</h3>
+              <p>An FPGA tuner able to identify frequencies by their note and if they are out of tune.</p>
+              <div class="chips"><span>Vivado</span><span>C</span></div>
+              <!-- <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">
+                View project <span>↗</span>
+              </a> -->
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <!-- PROJECT 3: Context Engine -->
+            <div class="project-visual project-image">
+              <img
+                src="images/batnet.jpg"
+                alt="Context Engine search interface"
+                loading="lazy"
+              />
+              <div class="visual-label">03 — AI / TELEMTRY</div>
+              <span class="visual-number">03</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-topline"><span>CAPSTONE</span><span>2024</span></div>
+              <h3>Eco-coustic</h3>
+              <p>A field-tested product able to classify birds and bats by their calls
+                and the direction the origin of the sound. Done in collaboration with UCSB and the company Sightir.</p>
+              <div class="chips"><span>TensorFlow</span><span>Rasberry Pi</span></div>
+              <!-- <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">
+                View project <span>↗</span>
+              </a> -->
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- HIGHLIGHTS -->
+      <section class="section" id="highlights">
+        <div class="section-heading">
+          <div>
+            <span class="section-index">03 / BEYOND THE DAY JOB</span>
+            <h2>Highlights & <span class="accent">milestones.</span></h2>
+          </div>
+          <p>Some of my miscellaneous accomplishments and work.
+             Did you know I was in a Melona commercial?</p>
+        </div>
+
+        <div class="highlight-list">
+          <article class="highlight-item reveal">
+            <div class="highlight-icon">↗</div>
+            <div class="highlight-body">
+              <span class="highlight-type">Publication · 10/2025</span>
+              <h3>"Wideband Microphone Array System for Sound Localization and Species Identification in Wind Farm Environments"</h3>
+              <p>A published paper about Eco-coustic that was presented at the 2025 International
+                Telemetry Conference in Las Vegas.</p>
+            </div>
+            <a href="https://repository.arizona.edu/items/63b091b3-fa6f-45e3-90b8-1275933ce3b8" 
+            target="_blank" rel="noreferrer" aria-label="Read publication">↗</a>
+          </article>
+
+          <article class="highlight-item reveal">
+            <div class="highlight-icon">✳</div>
+            <div class="highlight-body">
+              <span class="highlight-type">Politics · 5/2026</span>
+              <h3>Novato Multicultural Advisory Commission</h3>
+              <p>Serving as a commissioner for the City of Novato, advising on
+                DEI initiatives. One success was the passing of Novato's first proclamation
+                recognizing Filipino American History Month.</p>
+            </div>
+            <a href="https://www.novato.gov/government/commissions-committees-boards/multicultural-advisory-commission" target="_blank" rel="noreferrer" aria-label="Explore contributions">↗</a>
+          </article>
+
+          <article class="highlight-item reveal">
+            <div class="highlight-icon">⌘</div>
+            <div class="highlight-body">
+              <span class="highlight-type">Performance · 5/2025</span>
+              <h3>Pilipino Cultural Night 34</h3>
+              <p>Danced itik itik and performed as a drummer at UCSB's 34th
+                annual Filipino cultural performance. I was on the executive
+              board that planned the performance as a logistics executive.</p>
+            </div>
+            <a href="https://www.youtube.com/watch?v=baNl7RDlDPY" target="_blank" aria-label="Get in touch about mentorship">↗</a>
+          </article>
+
+          <!-- <article class="highlight-item reveal">
+            <div class="highlight-icon">◎</div>
+            <div class="highlight-body">
+              <span class="highlight-type">High School · 2017 — 2021</span>
+              <h3>Legacy Website</h3>
+              <p>Exploring design, writing, and new ideas that influence
+                how I think about building useful products.</p>
+            </div>
+            <a href="https://derekdelacruzsanmarin.weebly.com/" target="_blank" aria-label="Get in touch">↗</a>
+          </article> -->
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- CONTACT -->
+      <section class="section contact-section" id="contact">
+        <span class="section-index">04 / CONTACT</span>
+        <h2>Have something<br />in <span class="accent">mind?</span></h2>
+        <p class="contact-description">
+          I'm always happy to connect with thoughtful people,
+          discuss interesting problems, or explore what we could build together.
+        </p>
+        <a class="button button-primary contact-cta" href="mailto:derekdelacruz18@gmail.com">
+          Say hello <span>↗</span>
+        </a>
+
+        <div class="social-links">
+          <a href="https://github.com/derekdlc3" target="_blank" rel="noreferrer">
+            GitHub <span>↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/derek-delacruz/" target="_blank" rel="noreferrer">
+            LinkedIn <span>↗</span>
+          </a>
+          <a href="mailto:derekdelacruz18@gmail.com">
+            Email <span>↗</span>
+          </a>
+          <a href="#" id="copy-email" data-email="derekdelacruz18@gmail.com">
+            Copy email <span>⧉</span>
+          </a>
+        </div>
+        <p class="copy-feedback" id="copy-feedback" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="logo" href="#about" aria-label="Back to top">
+        <span class="logo-mark">D<span>.</span></span>
+      </a>
+      <span>Ang karanasan ay mabuting guro.</span>
+      <span class="footer-right">© <span id="year"></span> Derek Dela Cruz</span>
+    </footer>
+  </div>
+</body>
+</html>
