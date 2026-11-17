@@ -327,6 +327,7 @@ button {
   color: var(--green);
 }
 
+
 /* Portrait */
 .portrait-section {
   display: grid;
@@ -338,6 +339,7 @@ button {
 
 .portrait-frame {
   position: relative;
+  box-sizing: border-box;
   width: 100%;
   max-width: 380px;
   justify-self: center;
