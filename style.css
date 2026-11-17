@@ -348,7 +348,15 @@ button {
   border: 1px solid #354530;
   border-radius: 5px;
   background: linear-gradient(145deg, #172017, #0e100e);
+  /* overflow: hidden; */
+}
+
+/* Clips ONLY the photograph */
+.portrait-image {
+  width: 100%;
+  height: 100%;
   overflow: hidden;
+  border-radius: 2px;
 }
 
 .portrait-frame img {
