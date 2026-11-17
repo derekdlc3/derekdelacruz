@@ -337,7 +337,7 @@ button {
   padding: 70px 0 100px;
 }
 
-/*.portrait-frame {
+.portrait-frame {
   position: relative;
   box-sizing: border-box;
   width: 100%;
@@ -358,9 +358,9 @@ button {
   object-position: center;
   border-radius: 2px;
   filter: saturate(0.75) brightness(0.85);
-} */
+}
 
-
+/*
 .portrait-frame {
   position: relative;
   box-sizing: border-box;
@@ -386,7 +386,7 @@ button {
   border-radius: 2px;
   filter: saturate(0.75) brightness(0.85);
 }
-
+*/
 
 .portrait-corner {
   position: absolute;
