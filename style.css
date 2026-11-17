@@ -337,7 +337,7 @@ button {
   padding: 70px 0 100px;
 }
 
-.portrait-frame {
+/*.portrait-frame {
   position: relative;
   box-sizing: border-box;
   width: 100%;
@@ -358,7 +358,35 @@ button {
   object-position: center;
   border-radius: 2px;
   filter: saturate(0.75) brightness(0.85);
+} */
+
+
+.portrait-frame {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 380px;
+  justify-self: center;
+  aspect-ratio: 4 / 5;
+  padding: 10px;
+  border: 1px solid #354530;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #172017, #0e100e);
 }
+
+.portrait-frame img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2px;
+  filter: saturate(0.75) brightness(0.85);
+}
+
 
 .portrait-corner {
   position: absolute;
